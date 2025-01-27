@@ -146,6 +146,8 @@ nav {
 
  nav .logo img {
   max-height: 50px;  
+      object-fit:inherit;
+
 } 
 
 
