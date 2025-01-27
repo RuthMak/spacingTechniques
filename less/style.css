@@ -31,7 +31,19 @@ html, body {
     background-image: url("../assets/images/marvels-guardians-of-the-galaxy-4k-wallpaper-3840x2160-uhdpaper.com-533.1_a.jpg");
     background-size: cover;
     position: relative;
+}
+.splash::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
     filter: blur(8px); 
+    z-index: 0; 
 }
 
 .splashContent {
@@ -45,7 +57,6 @@ html, body {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: rgba(89, 72, 150, 0.1); 
     z-index: 1;
     padding: 20px;
     text-align: center;
