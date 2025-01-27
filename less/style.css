@@ -164,8 +164,9 @@ nav .navigation a {
   color: @mainFont;
   text-decoration: none;
   font-size: large;
-   padding: 10px 15px;
-    display: block;
-    line-height: 40px;
+  padding: 10px 15px;
+  display: block;
+  line-height: 40px;
+  text-color: white;
   
 }
