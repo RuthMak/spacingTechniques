@@ -45,7 +45,7 @@ a {
   height: 100%;
   width: 100%;
   color: white;
-  background-color: rgba(89, 72, 150, 0.65);
+  background-color: rgba(89, 72, 150, 0.2);
 }
 .full {
   min-height: 300px;
