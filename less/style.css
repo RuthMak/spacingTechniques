@@ -144,9 +144,14 @@ nav {
   align-items: center;
 }
 
-nav .logo img {
+/* nav .logo img {
   max-height: 50px;  
   object-fit: contain;
+} */
+
+nav .logo {
+    height: 100%;
+    margin-right: 20px;
 }
 
 nav .navigation {
