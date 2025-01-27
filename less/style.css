@@ -136,7 +136,7 @@ footer .copyright {
   margin-top: 15px;
 }
 
-av {
+nav {
     width: 100%;
     background-color: @nav;
     display: flex;
