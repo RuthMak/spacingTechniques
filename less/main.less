@@ -1,0 +1,160 @@
+/*html{
+    background-color: @background;
+  }
+  
+  html,body{
+    height: 100%;
+  }
+  
+  h1,h2,h3,h4,h5,h6,p,a{
+    font-family: Roboto;
+  }
+  
+ 
+  
+  #wrapper{
+  
+    width: 100%;
+  }
+  
+  .splash{
+    height: 500px;
+    background-image: img src= "assets/images/marvels-guardians-of-the-galaxy-4k-wallpaper-3840x2160-uhdpaper.com-533.1_a.jpg";
+  
+    .splashContent{
+      height: 100%;
+      width: 100%;
+      color: @mainFont;
+      background-color: rgba(89, 72, 150, 0.65);
+    }
+  }
+  
+  .full{
+  min-height: 300px;
+    background-color: @fullContent;
+    color: @contentFont;
+  
+  
+  
+  }
+  
+  .content{
+    min-height: 300px;
+    background-color: @halfContent;
+    color: @contentFont;
+  
+  
+    .box{
+      width: 100%;
+      height: 300px;
+      border-radius:8px;
+      background-color: @fullContent;
+      color: @contentFont;
+  
+      .imgBox{
+        border: 3px @mainFont solid;
+        border-radius: 10px;
+        width: 90%;
+      }
+    }
+  
+  }*/
+
+  // main.less
+@import "colors";
+@import "fonts";
+@import "nav";
+@import "footer";
+
+#wrapper {
+  margin-top: 60px; 
+}
+
+.splash {
+  height: 500px;
+  background-image: url("../assets/images/marvels-guardians-of-the-galaxy-4k-wallpaper-3840x2160-uhdpaper.com-533.1_a.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splashContent {
+  text-align: center;
+  color: @mainFont;
+  //background-color: rgba(89, 72, 150, 0.65);
+  padding: 20px;
+}
+
+.splash h1, .splash h3 {
+  margin: 0;
+}
+
+.full {
+  background-color: @fullContent;
+  color: @contentFont;
+  padding: 40px 20px;
+  text-align: justify;
+}
+
+.full p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: @halfContent;
+  color: @contentFont;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  margin: 15px;
+  background-color: @fullContent;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+}
+
+.imgBox {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px solid @mainFont;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imgBox img {
+  width: 100%;
+  display: block;
+}
+
+.box h1, .box h3 {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: @nav;
+  color: @mainFont;
+  padding: 20px 0;
+}
+
+footer .links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer .links a {
+  color: @mainFont;
+  text-decoration: none;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-top: 15px;
+}

@@ -1,0 +1,143 @@
+/*
+@import "colors";
+@import "fonts";
+@import "nav";
+@import "main";
+@import "footer";
+*/
+
+@import "colors";
+@import "fonts";
+@import "nav";
+@import "main";
+@import "footer";
+
+// Global resets
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Roboto, sans-serif;
+}
+
+#wrapper {
+  margin-top: 60px; // This accounts for the fixed nav bar
+}
+
+
+ .splash {
+  height: 500px;
+  background-image: url("../assets/images/marvels-guardians-of-the-galaxy-4k-wallpaper-3840x2160-uhdpaper.com-533.1_a.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splashContent {
+  text-align: center;
+  color: @mainFont;
+  background-color: rgba(89, 72, 150, 0.65);
+  padding: 20px;
+} 
+  
+.splash h1, .splash h3 {
+  margin: 0;
+}
+
+.full {
+  background-color: @fullContent;
+  color: @contentFont;
+  padding: 40px 20px;
+  text-align: justify;
+}
+
+.full p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: @halfContent;
+  color: @contentFont;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  margin: 15px;
+  background-color: @fullContent;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+}
+
+.imgBox {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px solid @mainFont;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imgBox img {
+  width: 100%;
+  display: block;
+}
+
+.box h1, .box h3 {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: @nav;
+  color: @mainFont;
+  padding: 20px 0;
+}
+
+footer .links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer .links a {
+  color: @mainFont;
+  text-decoration: none;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-top: 15px;
+}
+
+nav {
+  width: 100%;
+  background-color: @nav;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+nav .logo img {
+  height: 100%;
+}
+
+nav .navigation {
+  display: flex;
+  gap: 20px;
+}
+
+nav .navigation a {
+  color: @mainFont;
+  text-decoration: none;
+  font-size: large;
+  padding: 10px;
+  display: block;
+}
