@@ -146,14 +146,9 @@ nav {
 
  nav .logo img {
   max-height: 50px;  
-  object-fit: contain;
 } 
 
-nav .logo {
-   
-    max-height: 100%;
-    margin-right: 35px;
-}
+
 
 nav .navigation {
   display: flex;
