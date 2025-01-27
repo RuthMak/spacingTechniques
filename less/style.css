@@ -22,8 +22,8 @@ html, body {
 .splashContent {
   text-align: center;
   color: white;
-  background-color: rgba(89, 72, 150, 0.5);
-  padding: 60px;
+  background-color: rgba(89, 72, 150, 0.65);
+  padding: 100px;
 } 
 
 /*.splash {
