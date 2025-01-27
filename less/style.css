@@ -151,8 +151,8 @@ nav {
 
 nav .logo {
    
-    max-height: 50%;
-    object-fit: contain;
+    max-height: 100%;
+    margin-right: 35px;
 }
 
 nav .navigation {
