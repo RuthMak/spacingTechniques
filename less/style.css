@@ -161,7 +161,7 @@ nav .navigation {
   padding-top: 15px;
 
 nav .navigation a {
-  color: white;
+  color: @mainFont;
   text-decoration: none;
   font-size: large;
   padding: 10px 15px;
