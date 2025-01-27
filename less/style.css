@@ -136,36 +136,36 @@ footer .copyright {
   margin-top: 15px;
 }
 
-nav {
-  width: 100%;
-  background-color: #7b0738;
-  display: flex;
-   justify-content: space-between;
+av {
+    width: 100%;
+    background-color: @nav;
+    display: flex;
+    justify-content: space-between;
     padding: 10px 20px;
     position: fixed;
     top: 0;
     z-index: 10;
-}
-
- nav .logo img {
-  max-height: 50px;  
-  object-fit: contain;
-
-} 
-
-
-
-nav .navigation {
-  display: flex;
-    gap: 20px;
-  padding-top: 15px;
-
-nav .navigation a {
-  color: @mainFont;
-  text-decoration: none;
-  font-size: large;
-  padding: 10px 15px;
-  display: block;
-  line-height: 40px;
+  }
   
-}
+  nav .logo img {
+    max-height: 50%;
+    object-fit:contain;
+
+  }
+  
+  nav .navigation {
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+  }
+  
+  nav .navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px 15px;
+    display: block;
+    line-height: 40px;
+    color: w
+  }
+
